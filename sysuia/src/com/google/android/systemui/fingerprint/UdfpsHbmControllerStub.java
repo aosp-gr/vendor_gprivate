@@ -21,7 +21,7 @@ import java.util.concurrent.Executor;
 
 public class UdfpsHbmControllerStub extends UdfpsHbmController {
     public UdfpsHbmControllerStub(Context context, Handler handler, Executor executor, UdfpsGhbmProvider udfpsGhbmProvider, UdfpsLhbmProvider udfpsLhbmProvider, AuthController authController, DisplayManager displayManager) {
-        this(context, handler, executor, udfpsGhbmProvider, udfpsLhbmProvider, authController, new super.Injector(displayManager));
+        this(context, handler, executor, udfpsGhbmProvider, udfpsLhbmProvider, authController, new Injector(displayManager));
     }
 
     UdfpsHbmControllerStub(Context context, Handler handler, Executor executor, UdfpsGhbmProvider udfpsGhbmProvider, UdfpsLhbmProvider udfpsLhbmProvider, AuthController authController, Injector injector) {

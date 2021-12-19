@@ -437,9 +437,6 @@ Once it resets, go through the setup process and choose to bring your data from 
     <string name="backup_suggestion_what_is_needed_title">"What you'll need"</string>
     <string name="battery_manager_summary">Extend battery life and optimize charging</string>
     <string name="battery_suggestion_summary">Turn on Adaptive Battery</string>
-    <string name="battery_tip_limited_temporarily_dialog_msg">"In certain conditions, like high temperatures and long charging periods, charging may be limited to %1$s to help preserve battery health.
-
-When those conditions end, your phone will automatically charge normally."</string>
     <string name="battery_tip_limited_temporarily_dialog_resume_charge">Resume charging</string>
     <string name="battery_tip_smart_battery_summary">Turn on Adaptive Battery</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s will no longer be paired with any device linked to this Google Account</string>
